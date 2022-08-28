@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  body {
+    background-color: rgb(128, 228, 181);
+  }
+
+  header h1 {
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+  }
+
+form {
+    grid-row: span;
+    margin: 20px;
+  }
+
+  form h2 {
+    height: 50px;
+  }
+
+  .text {
+    height: 50px;
+    font-size: larger;
+    margin: 10px;
+  }
+
+  .id {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+  }

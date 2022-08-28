@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    max-width: 100%;
+  }
+  
+ body {
+    background: url("../img/logo.PNG") center;
+ } 
+
+.conteiner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 30px;
+    padding: 16px;
+    height: 593px;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%, rgba(0,0,0,.8) 100%);
+    background: rgba(0,0,0, 0.4);
+    
+}    
+
+form {
+    padding: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top,rgba(216, 13, 223, 0.8) 0,rgba(219, 13, 140, 0) 60%, rgba(191, 13, 245, 0.8) 100%);
+}
+
+h2 {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin: 8px;
+}
+
+.box {
+    color: white;
+    font-size: 18px;
+}
+
+.lineInput {
+    padding: 8px;
+    /*outline => quando se clica na cx de text ele retirar o efeito de grifado*/
+    outline: 0;
+    border: 1px solid Violet;
+    /*border-radius => arredonda os cantos*/
+    border-radius: 5px;
+    /*margin-bottom => descola o botão*/
+    margin-bottom: 5px;
+}
+
+button {
+    font-weight: bolder; 
+    color: aliceblue;
+    border-radius: 8px;
+    border: 1px solid Violet;
+    background: BlueViolet;  
+    padding: 9px;
+    transition: all ease 0.4s;    
+}
+
+button:hover {
+    background: rgb(102, 33, 167);
+}
+
+h4 {
+    position: relative;
+    right: -278px;
+    margin: 3px;
+    color: beige;
+    font-size: 13px;
+}
+
+footer {
+    background: PapayaWhip;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+footer p {
+    color: #080808;
+    font-size: 13px;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%, rgba(0,0,0,.8) 100%);
+    background: rgba(0,0,0, 0.4);
+}

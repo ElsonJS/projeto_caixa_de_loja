@@ -1,0 +1,82 @@
+* {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: url("../img/logo.PNG") center;
+}
+
+header {
+    color: rgb(7, 7, 7);
+    margin: 2px;
+    font-size: 10px;
+}
+
+.bnt {
+    position: absolute;
+    left: 1288px;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px 10px;
+    outline: 0;
+    transition: all ease 0.3s;
+}
+
+.bnt:hover {
+    background-color: rgb(184, 31, 31);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    color: white;
+    font-size: 45px;
+    transition: all 0.3s;
+}
+
+.box-1 {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    left: 310px;
+    padding: 100px 100px;
+    outline: 0;
+    transition: all ease 0.3s;
+    background-color: DeepPink;
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+
+.box-1:hover {
+    background-color: rgb(187, 48, 122);
+    
+}
+
+.box-2 {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    left: 700px;
+    padding: 100px 58px;
+    outline: 0;
+    transition: all ease 0.3s;
+    background-color: DeepPink;
+    border: 1px solid white;
+    color: white;
+    font-size: larger;
+    border-radius: 18px;
+}
+
+.box-2:hover {
+    background-color: rgb(187, 48, 122);
+}

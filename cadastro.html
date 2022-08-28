@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Leila Cosméticos & Variedades</title>
+
+    <link rel="shortcut icon" href="favicon2.png">
+    <link rel="stylesheet" href="./css/cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+    <script src="./js/cadastro.js" defer></script>
+</head>
+<body>
+	<header>
+        <h1>🛠️ E.J.S - System</h1>   
+	</header>
+	<main>
+        <div class="title">
+
+            <div class="div-bnt">
+                <a class="bnt" href="diretorio.html"><b>Diretorio</b></a>
+                <a class="bnt" href="index.html"><b>Deslogar</b></a>
+            </div>
+
+            <h2>Cadastro de Produtos</h2>
+        </div>
+
+        <form>
+            <div class="lineInput">
+                <label><b>Qtde: </b></label>
+                <input type="number" class="modify" id="qtde" placeholder="Qtde">
+                <label><b>Fabricante: </b></label>
+                <input type="text" class="modify" id="fabricante" placeholder="Fabricante">
+            </div>
+            <div class="lineInput">
+                <label><b>Produto: </b></label>
+                <input type="text" class="modify" id="item" placeholder="Produto">
+                <label><b>Preço unidade: </b></label>
+                <input type="text" class="modify" id="precoUnidade" placeholder="Preço">
+                <label><b>Fornecedor: </b></label>
+                <input type="text" class="modify" id="fornecedor" placeholder="Fornecedor">
+            </div>
+               
+            <button onclick="produto1.salvar()">Salvar</button>
+            <button onclick="produto1.cancelar()">Cancelar</button>
+        </form>
+
+		<div class="conteiner">
+			<table border="1">				
+				<thead>
+					<tr>
+						<th class="center"><b>ID</b></th>
+						<th><b>Qtde</b></th>
+                        <th><b>Fabricante</b></th>
+						<th><b>Produto</b></th>
+						<th><b>Preço unidade</b></th>
+						<th><b>Fornecedor</b></th>
+                        <th class="center"><b>Ação</b></th>				
+					</tr>
+				</thead>
+				<tbody id="tbody">
+
+				</tbody>
+			</table>
+		</div>
+	</main>
+	<footer>	
+	</footer>    
+</body>
+</html>    
